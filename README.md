@@ -1,7 +1,7 @@
 # Zliux - Digital Product Studio & Web Agency Website
 
 A modern, high-tech, fully responsive front-end website designed for a next-generation digital product agency, web design studio, and software showcase.
-🌐 **Live Demo:** [https://imtiaz-webdev.github.io/Zliux-agency/](https://imtiaz-webdev.github.io/Zliux-agency/)
+🌐 **Live Demo:**[View Live Website](https://imtiaz-webdev.github.io/Zliux-agency/)
 ---
 
 ## 📸 Website Preview
