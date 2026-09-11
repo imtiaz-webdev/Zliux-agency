@@ -6,10 +6,8 @@ A modern, high-tech, fully responsive front-end website designed for a next-gene
 
 ## 📸 Website Preview
 
-### Hero Section
-![Hero Section](./screenshots/preview.png)
+<img width="1362" height="686" alt="preview png" src="https://github.com/user-attachments/assets/ba5dd88f-c261-4e47-975b-3f6e0dc415b6" />
 
----
 
 ## ✨ Features
 * **100% Fully Responsive:** Flawlessly designed for mobile devices, tablets, and desktop displays.
