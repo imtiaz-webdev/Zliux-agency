@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zliux — Web Development, UI/UX Design &amp; Video Editing Agency</title>
+<meta name="description" content="Zliux is a next-gen digital agency crafting custom web apps, striking UI/UX and cinematic video content.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<div class="noise-overlay"></div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">Z</span>
+      <span class="logo-text">Zliux</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#techstack" class="nav-link">Tech Stack</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#why-us" class="nav-link">Why Us</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-glow header-cta">
+      <span>Get in Touch</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-inner">
+    <p class="eyebrow"><span class="eyebrow-dot"></span>Digital Product Studio</p>
+
+    <h1 class="hero-title">
+      Transforming Brands with <span class="grad-text">Next‑Gen Tech</span> &amp; Creative Design
+    </h1>
+
+    <p class="hero-sub">
+      Zliux blends engineering precision with cinematic craft — building scalable web platforms,
+      interfaces people love, and video content that moves the needle.
+    </p>
+
+    <div class="hero-cta-group">
+      <a href="#services" class="btn btn-primary">Explore Services</a>
+      <a href="#contact" class="btn btn-outline">Contact Us</a>
+    </div>
+
+    <div class="hero-orbit" aria-hidden="true">
+      <div class="orbit-core">Z</div>
+      <div class="orbit-ring orbit-ring-1">
+        <span class="orbit-icon"><i class="devicon-html5-plain colored"></i></span>
+      </div>
+      <div class="orbit-ring orbit-ring-2">
+        <span class="orbit-icon"><i class="devicon-laravel-plain colored"></i></span>
+      </div>
+      <div class="orbit-ring orbit-ring-3">
+        <span class="orbit-icon"><i class="devicon-python-plain colored"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <p class="section-eyebrow">What We Do</p>
+    <h2 class="section-title">Services built to <span class="grad-text">scale your brand</span></h2>
+
+    <div class="services-grid">
+
+      <article class="tilt-card service-card" tabindex="0">
+        <div class="card-glow"></div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 15h40" stroke="currentColor" stroke-width="2"/>
+            <circle cx="9" cy="11.5" r="1.2" fill="currentColor"/>
+            <circle cx="13" cy="11.5" r="1.2" fill="currentColor"/>
+            <path d="M14 26l5-5-5-5M22 26h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Web Development</h3>
+        <p>Custom web apps, scalable backends, and E‑Commerce &amp; CMS builds engineered to grow with your business.</p>
+        <ul class="service-tags">
+          <li>Custom Web Apps</li>
+          <li>Scalable Backends</li>
+          <li>E‑Commerce &amp; CMS</li>
+        </ul>
+      </article>
+
+      <article class="tilt-card service-card" tabindex="0">
+        <div class="card-glow"></div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="6" width="24" height="36" rx="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="18" cy="35" r="1.4" fill="currentColor"/>
+            <circle cx="34" cy="18" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="M34 15v3l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>Wireframing, prototyping and modern web/app interfaces designed around real user behaviour.</p>
+        <ul class="service-tags">
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>Interface Design</li>
+        </ul>
+      </article>
+
+      <article class="tilt-card service-card" tabindex="0">
+        <div class="card-glow"></div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="12" width="28" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M32 20l10-6v20l-10-6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="12" cy="24" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Video Editing</h3>
+        <p>High‑quality tech promos, reels, and corporate &amp; ad editing that turns viewers into customers.</p>
+        <ul class="service-tags">
+          <li>Tech Promos</li>
+          <li>Reels &amp; Ads</li>
+          <li>Corporate Video</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= TECH STACK ================= -->
+<section class="techstack" id="techstack">
+  <div class="section-inner">
+    <p class="section-eyebrow">Our Toolkit</p>
+    <h2 class="section-title">Technology we <span class="grad-text">build with</span></h2>
+
+    <div class="tech-grid">
+      <div class="tech-chip"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+      <div class="tech-chip"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+      <div class="tech-chip"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+      <div class="tech-chip"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+      <div class="tech-chip"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+      <div class="tech-chip"><i class="devicon-laravel-plain colored"></i><span>Laravel</span></div>
+      <div class="tech-chip"><i class="devicon-wordpress-plain colored"></i><span>WordPress</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="why-us" id="why-us">
+  <div class="section-inner">
+    <p class="section-eyebrow">Our Edge</p>
+    <h2 class="section-title">Why brands choose <span class="grad-text">Zliux</span></h2>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M8 32V16M20 32V8M32 32V22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Scalable Code</h3>
+        <p>Architecture that holds up as your traffic, features and team all grow.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 6l4.5 9.2L34 16.6l-7 6.8 1.6 9.6L20 28.6l-8.6 4.4L13 23.4l-7-6.8 9.5-1.4L20 6z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>High‑Converting UI</h3>
+        <p>Interfaces designed to guide visitors toward the action that matters.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M21 4L8 22h9l-2 14 15-20h-9l0-12z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Fast Delivery</h3>
+        <p>Tight sprints and clear milestones so your launch date never slips.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2.2"/><path d="M20 11v9l6 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>24/7 Client Support</h3>
+        <p>A team that's reachable whenever an issue — or an idea — comes up.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section class="portfolio" id="portfolio">
+  <div class="section-inner">
+    <p class="section-eyebrow">Selected Work</p>
+    <h2 class="section-title">Projects from the <span class="grad-text">Zliux</span> studio</h2>
+
+    <div class="portfolio-grid">
+      <article class="tilt-card portfolio-card">
+        <div class="card-glow"></div>
+        <div class="portfolio-thumb thumb-1"><span class="thumb-tag">Web App</span></div>
+        <div class="portfolio-body">
+          <h3>Nova Commerce</h3>
+          <p>Headless e‑commerce platform with custom Laravel backend and sub‑second checkout.</p>
+        </div>
+      </article>
+
+      <article class="tilt-card portfolio-card">
+        <div class="card-glow"></div>
+        <div class="portfolio-thumb thumb-2"><span class="thumb-tag">UI/UX</span></div>
+        <div class="portfolio-body">
+          <h3>Pulse Finance App</h3>
+          <p>End‑to‑end product design system for a fintech mobile experience.</p>
+        </div>
+      </article>
+
+      <article class="tilt-card portfolio-card">
+        <div class="card-glow"></div>
+        <div class="portfolio-thumb thumb-3"><span class="thumb-tag">Video</span></div>
+        <div class="portfolio-body">
+          <h3>Aether Launch Reel</h3>
+          <p>60‑second product promo edited for paid social and YouTube pre‑roll.</p>
+        </div>
+      </article>
+
+      <article class="tilt-card portfolio-card">
+        <div class="card-glow"></div>
+        <div class="portfolio-thumb thumb-4"><span class="thumb-tag">CMS</span></div>
+        <div class="portfolio-body">
+          <h3>Northline Agency Site</h3>
+          <p>WordPress build with a custom theme, editable in minutes by the client's team.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="hero-glow hero-glow-3"></div>
+  <div class="section-inner contact-inner">
+
+    <div class="contact-left">
+      <p class="section-eyebrow">Get In Touch</p>
+      <h2 class="section-title">Let's build something <span class="grad-text">worth talking about</span></h2>
+      <p class="contact-lead">Tell us about your project and we'll get back to you within one business day.</p>
+
+      <div class="contact-info-list">
+        <a href="tel:03003512162" class="contact-info-item">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.5 3h3l1.5 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+          </span>
+          <span>
+            <strong>Phone</strong>
+            <em>0300 3512162</em>
+          </span>
+        </a>
+        <a href="mailto:zilux@gmail.com" class="contact-info-item">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span>
+            <strong>Email</strong>
+            <em>zilux@gmail.com</em>
+          </span>
+        </a>
+        <a href="https://facebook.com/zilux-tech" target="_blank" rel="noopener" class="contact-info-item">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5h2.5V5H14c-2 0-3.5 1.5-3.5 3.5V11H8v3h2.5v6H14v-6h2.3l.7-3H14V8.8c0-.2.2-.3.4-.3z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          </span>
+          <span>
+            <strong>Facebook</strong>
+            <em>zilux-tech</em>
+          </span>
+        </a>
+        <a href="https://instagram.com/zilux" target="_blank" rel="noopener" class="contact-info-item">
+          <span class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+          </span>
+          <span>
+            <strong>Instagram</strong>
+            <em>@zilux</em>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-row">
+        <label for="service">Service Needed</label>
+        <select id="service" name="service" required>
+          <option value="" disabled selected>Select a service</option>
+          <option>Web Development</option>
+          <option>UI/UX Design</option>
+          <option>Video Editing</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">
+        <span id="submitLabel">Send Message</span>
+      </button>
+      <p class="form-note" id="formNote" aria-live="polite"></p>
+    </form>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="logo">
+        <span class="logo-mark">Z</span>
+        <span class="logo-text">Zliux</span>
+      </a>
+      <p>Next‑gen web development, UI/UX design &amp; video editing.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#services">Services</a>
+      <a href="#techstack">Tech Stack</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:03003512162">0300 3512162</a>
+      <a href="mailto:zilux@gmail.com">zilux@gmail.com</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <a href="https://facebook.com/zilux-tech" target="_blank" rel="noopener">Facebook — zilux-tech</a>
+      <a href="https://instagram.com/zilux" target="_blank" rel="noopener">Instagram — @zilux</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Zliux. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
